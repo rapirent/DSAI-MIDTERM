@@ -108,3 +108,4 @@ venv.bak/
 *.xlsx
 .token_json.json
 check.log
+!lastyear.csv
