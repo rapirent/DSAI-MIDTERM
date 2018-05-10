@@ -107,3 +107,4 @@ venv.bak/
 *.csv
 *.xlsx
 .token_json.json
+check.log
