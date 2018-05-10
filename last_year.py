@@ -1,13 +1,6 @@
 import csv
 import requests
 
-DURATION_1 = '2018-04-12-0/2018-04-20-23'
-DURATION_2 = '2018-04-13-0/2018-04-21-23'
-
-BJ_URL_1 = 'https://biendata.com/competition/airquality/bj/' + DURATION_1 +'/2k0d1d8'
-LD_URL_1 = 'https://biendata.com/competition/airquality/ld/' + DURATION_1 + '/2k0d1d8'
-BJ_URL_2 = 'https://biendata.com/competition/airquality/bj/' + DURATION_2 + '/2k0d1d8'
-LD_URL_2 = 'https://biendata.com/competition/airquality/ld/' + DURATION_2 + '/2k0d1d8'
 ID_LIST = ['dongsi_aq', 'tiantan_aq', 'guanyuan_aq', 'wanshouxigong_aq', 'aotizhongxin_aq', 'nongzhanguan_aq', 'wanliu_aq', 'beibuxinqu_aq', 'zhiwuyuan_aq', 'fengtaihuayuan_aq', 'yungang_aq', 'gucheng_aq', 'fangshan_aq', 'daxing_aq', 'yizhuang_aq', 'tongzhou_aq', 'shunyi_aq', 'pingchang_aq', 'mentougou_aq', 'pinggu_aq',
            'huairou_aq', 'miyun_aq', 'yanqin_aq', 'dingling_aq', 'badaling_aq', 'miyunshuiku_aq', 'donggaocun_aq', 'yongledian_aq', 'yufa_aq', 'liulihe_aq', 'qianmen_aq', 'yongdingmennei_aq', 'xizhimenbei_aq', 'nansanhuan_aq', 'dongsihuan_aq', 'CD1', 'BL0', 'GR4', 'MY7', 'HV1', 'GN3', 'GR9', 'LW2', 'GN0', 'KF1', 'CD9', 'ST5', 'TH4']
 OUTPUT_FILE_NAME = 'sub-0424-1.csv'
